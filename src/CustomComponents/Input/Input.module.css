@@ -1,0 +1,31 @@
+
+.noError input,
+.error input{
+    width: 332px;
+    height: 35px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin: 29px auto 0;
+    border: 1px solid #CCCCCC;
+}
+
+
+@media screen and (max-width: 700px) {
+    .error input,
+    .noError input {
+        width: 332px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .error input,
+    .noError input {
+        display: block;
+        width: 300px;
+        margin: 29px auto 0;
+    }
+}
+

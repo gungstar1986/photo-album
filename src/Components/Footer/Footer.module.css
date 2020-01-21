@@ -1,0 +1,13 @@
+.footerContainer {
+    width: 96%;
+    text-align: center;
+}
+.year {
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #CCCCCC;
+}

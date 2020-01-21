@@ -1,0 +1,158 @@
+.modalWindowContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modalWindow {
+    position: relative;
+    margin: 181px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 619px;
+    height: 425px;
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.closeWindow {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.photoArea img {
+    width: 332px;
+    height: 205px;
+}
+
+.commentsArea {
+    margin: 0 auto;
+    width: 230px;
+    height: 408px;
+    position: absolute;
+    right: 65px;
+    overflow-y: auto;
+}
+
+.formArea {
+    height: 205px;
+    width: 332px;
+}
+
+.date {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #999999;
+}
+
+.comment {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/*-------------- @Media -----------*/
+
+
+@media (max-width: 320px)  {
+    .commentsArea {
+        position: unset;
+        height: 150px;
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        overflow-y: auto;
+    }
+
+    .photoArea {
+        width: 320px;
+    }
+
+    .modalWindow {
+        position: fixed;
+        width: 100%;
+        height: 568px;
+        margin-top: 0;
+        top: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 360px)  {
+    .modalWindow {
+        height: 640px;
+        padding-bottom:10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .modalWindow {
+        height: 667px;
+    }
+}
+
+@media (max-width: 411px) {
+    .modalWindow {
+        height: 731px;
+    }
+
+    .commentsArea {
+        height: 316px;
+    }
+}
+
+@media (max-width: 700px) {
+    .commentsArea {
+        position: unset;
+        height: 150px;
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        overflow-y: auto;
+    }
+
+    .formArea {
+        width: 100%;
+    }
+
+    .photoArea {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .photoArea img {
+        width: 332px;
+
+    }
+
+    .modalWindow {
+        position: fixed;
+        width: 100%;
+        height: 568px;
+        margin-top: 0;
+        top: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+
+

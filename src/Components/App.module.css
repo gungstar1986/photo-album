@@ -1,0 +1,12 @@
+.app {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 768px;
+  margin: 0 auto;
+  min-height: 828px;
+  padding-bottom: 30px;
+  border: 1px solid #343a40;
+}
+

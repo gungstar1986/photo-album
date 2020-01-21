@@ -1,0 +1,56 @@
+.sendButton {
+    width: 100%;
+    text-align: center;
+}
+
+.fieldContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sendButton button{
+    width: 332px;
+    height: 35px;
+    background: #4997D0;
+    border-radius: 3px;
+    border: 2px solid #4997D0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.sendButton button:hover {
+    background: rgba(55, 114, 155, 1);
+    border: 2px solid rgba(55, 114, 155, 1);
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 700px) {
+    .sendButton {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sendButton button{
+        /*display: block;*/
+        margin: 30px auto;
+
+    }
+}
+
+
+@media screen and (max-width: 321px) {
+    .sendButton button{
+        display: block;
+        margin: 30px auto;
+        width: 100%;
+    }
+}
